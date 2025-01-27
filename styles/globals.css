@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.completed {
+  text-decoration: line-through;
+}
+ul.todolist-entries li {
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clicked {
+  font-weight: bold;
+  color: #ea5959;
+}
