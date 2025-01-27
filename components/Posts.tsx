@@ -20,8 +20,8 @@ function Posts({ allPosts, markComplete, markDelete }) {
               id={post.id}
               onClick={handleCheckedPost}
               className="w-5 h-5 text-red-400 focus:ring-red-400"
-              checked={post.status == "completed" ? "true" : ""}
-              disabled={post.status == "completed" ? "true" : ""}
+              checked={post.status == "completed"}
+              disabled={post.status == "completed"}
             />
             <span className="todobody ml-3 text-gray-700">{post.body}</span>
           </div>
